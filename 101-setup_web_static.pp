@@ -75,4 +75,4 @@ exec { 'exec_10':
   command => 'sudo service nginx restart',
   path    => ['/usr/bin', '/bin', '/usr/sbin'],
   returns => [0,1]
-}
+  }
